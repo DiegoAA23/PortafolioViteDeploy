@@ -1,0 +1,38 @@
+.navbar {
+    background: @navbar-background;
+    text-align: center;
+    padding: 1rem;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        li {
+            display: inline;
+            margin-right: 20px;
+            @media (max-width: @size[tablet]) {
+                display: block;
+                line-height: 2.5;
+            }
+            a{
+                color: @navbar-text-color;
+                text-decoration: none;
+                padding: 10px 15px;
+                @media (max-width: @size[tablet]) {
+                    padding: 3px 5px;
+                }
+                width: 100%;
+                 transition: background-color 0.3s;
+                &:hover {
+                    background-color: @blanco;
+                    color: @negro;
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        float: left;
+        margin-right: 20px;
+        color: @navbar-text-color;
+    }
+}

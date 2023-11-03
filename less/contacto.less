@@ -1,0 +1,64 @@
+.formcontacto{
+
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+
+    .contactoelementos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: @size[tablet]) {
+            display:block ;
+        }
+    }
+
+    .datos, .formulario{
+        padding: 2.5rem;
+    }
+
+    .form-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+         
+        .my-form {
+            background: @blanco;
+            border: 1px solid @gris;
+            border-radius: 4px;
+            padding: 20px;
+            width: 300px;
+            text-align: left;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid @gris;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: @boton-color;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: @boton-resalto;
+        }
+    }
+}

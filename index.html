@@ -41,10 +41,10 @@
 
   <section class="hero-banner" id="inicio">
     <div class="hero-content">
-      <h1 class="display-3">Bienvenido</h1>
-      <p class="fs-4">Mi nombre es Diego Alvarado y te presento mi portafolio personal de proyectos. <br>
+      <h1>Bienvenido</h1>
+      <p>Mi nombre es Diego Alvarado y te presento mi portafolio personal de proyectos. <br>
         ¡Dale un vistazo!</p>
-      <a href="#mensaje" class="btn btn-primary">Enviar Mensaje</a>
+      <a class="btnbanner" href="#mensaje">Enviar Mensaje</a>
     </div>
   </section>
 
@@ -52,9 +52,9 @@
     <div class="division"></div>
     <section class="container">
       <h2 id="perfil">Perfil</h2>
-      <div class="texto">
-        <section>
-          <p >Mi objetivo es entregar los mejores resultados posibles en cada proyecto o trabajo, y
+      <div class="info">
+        <section class="texto">
+          <p>Mi objetivo es entregar los mejores resultados posibles en cada proyecto o trabajo, y
             lo persigo a través de una combinación de dedicacion,
             interes por aprender y mucho esfuerzo. Esperando algun dia poder ser un gran profesional, si es posible,
             especializado en el desarrollo web.
@@ -74,7 +74,7 @@
       </div>
       <div>
         <div>
-          <img class="mx-auto d-block" width="50%"
+          <img class="" width="50%"
             src="https://res.cloudinary.com/doehxaypl/image/upload/v1661878685/ge-sid-genysys-engine/elcxbxtij2aevuzdsvsr.jpg"
             alt="">
         </div>
@@ -83,148 +83,114 @@
 
     <div class="division"></div>
 
-    <section id="proyectos" class="mt-4">
-      <h2 class="section-title text-center">Proyectos</h2>
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-4 mt-4">
-            <div
-              class="card shadow p-3 mb-5 bg-white rounded text-center d-flex flex-column align-items-center justify-content-center border border-primary border-3">
-              <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" class="card-img-top img-fluid w-50"
-                alt="">
-              <div class="card-body">
-                <h5 class="card-title">Proyecto HTML</h5>
-                <p class="card-text">Web con Estructura Basica HTML</p>
-                <a href="https://github.com/DiegoAA23/PortalWebTesla_IIPeriodo" class="btn btn-primary">Ver Más</a>
-              </div>
-            </div>
+    <section class="tarjetas" id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyectos">
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto HTML</h5>
+            <p class="card-text">Web con Estructura Basica HTML</p>
+            <a class="btn btn-primary" href="https://github.com/DiegoAA23/PortalWebTesla_IIPeriodo">Ver Más</a>
           </div>
-          <div class="col-md-4 mt-4">
-            <div
-              class="card shadow p-3 mb-5 bg-white rounded text-center d-flex flex-column align-items-center justify-content-centerborder border-primary border-3">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-                class="card-img-top img-fluid w-50" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Proyecto CSS</h5>
-                <p class="card-text">Sitio Web Personalizado con CSS</p>
-                <a href="http://tiendagrupoc.laperlatech.com" class="btn btn-primary">Ver Más</a>
-              </div>
-            </div>
+        </div>
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+            alt="">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto CSS</h5>
+            <p class="card-text">Sitio Web Personalizado con CSS</p>
+            <a class="btn btn-primary" href="http://tiendagrupoc.laperlatech.com">Ver Más</a>
           </div>
-          <div class="col-md-4 mt-4">
-            <div
-              class="card shadow p-3 mb-5 bg-white rounded text-center d-flex flex-column align-items-center justify-content-center border border-primary border-3">
-              <img
-                src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg"
-                class="card-img-top img-fluid w-50" alt="">
-              <div class="card-body ">
-                <h5 class="card-title">Proyecto Bootstrap</h5>
-                <p class="card-text">Sitio Web Desarrollado con Bootstrap</p>
-                <a href="#" class="btn btn-primary">Ver Más</a>
-              </div>
-            </div>
+        </div>
+
+        <div class="card">
+          <img src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto Bootstrap</h5>
+            <p class="card-text">Sitio Web Desarrollado con Bootstrap</p>
+            <a class="btn btn-primary" href="#">Ver Más</a>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mt-4">
-            <div
-              class="card shadow p-3 mb-5 bg-white rounded text-center d-flex flex-column align-items-center justify-content-center border border-primary border-3">
-              <img src="https://static.cdnlogo.com/logos/a/96/android.png" class="card-img-top img-fluid w-50" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Proyecto Android</h5>
-                <p class="card-text">Pequeña Aplicación en Kotlin</p>
-                <a href="https://github.com/DiegoAA23/NotasRapidas_Firebase" class="btn btn-primary">Ver Más</a>
-              </div>
-            </div>
+
+      <div class="proyectos">
+        <div class="card">
+          <img src="https://static.cdnlogo.com/logos/a/96/android.png" class="card-img-top img-fluid w-50" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto Android</h5>
+            <p class="card-text">Pequeña Aplicación en Kotlin</p>
+            <a class="btn btn-primary" href="https://github.com/DiegoAA23/NotasRapidas_Firebase">Ver Más</a>
           </div>
-          <div class="col-md-4 mt-4">
-            <div
-              class="card shadow p-3 mb-5 bg-white rounded text-center d-flex flex-column align-items-center justify-content-center border border-primary border-3">
-              <img
-                src="https://www.svgrepo.com/show/303202/apple-ios-logo.svg"
-                class="card-img-top img-fluid w-50" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Proyecto iOS</h5>
-                <p class="card-text">Pequeña Aplicación en Swift</p>
-                <a href="#" class="btn btn-primary">Ver Más</a>
-              </div>
-            </div>
+        </div>
+
+        <div class="card">
+          <img src="https://www.svgrepo.com/show/303202/apple-ios-logo.svg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto iOS</h5>
+            <p class="card-text">Pequeña Aplicación en Swift</p>
+            <a class="btn btn-primary" href="#">Ver Más</a>
           </div>
-          <div class="col-md-4 mt-4">
-            <div
-              class="card shadow p-3 mb-5 bg-white rounded text-center d-flex flex-column align-items-center justify-content-center border border-primary border-3">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Windows_logo_-_2012_%28dark_blue%29.svg/800px-Windows_logo_-_2012_%28dark_blue%29.svg.png"
-                class="card-img-top img-fluid w-50" alt="">
-              <div class="card-body ">
-                <h5 class="card-title">Proyecto C#</h5>
-                <p class="card-text">Programa de Escritorio</p>
-                <a href="https://github.com/DiegoAA23/Sistema_DesarrolloSoftware_G1" class="btn btn-primary">Ver Más</a>
-              </div>
-            </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Windows_logo_-_2012_%28dark_blue%29.svg/800px-Windows_logo_-_2012_%28dark_blue%29.svg.png"
+            alt="">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto C#</h5>
+            <p class="card-text">Programa de Escritorio</p>
+            <a class="btn btn-primary" href="https://github.com/DiegoAA23/Sistema_DesarrolloSoftware_G1">Ver Más</a>
           </div>
         </div>
       </div>
+
     </section>
 
     <div class="division"></div>
 
-    <section id="contacto" class="contact mt-4">
-      <div class="container shadow p-3 mb-5 bg-white rounded">
-        <div class="section-title text-center mb-4">
-          <h2>Contacto</h2>
-        </div>
-        <section class="row text-center mt-4 mb-4">
-          <div class="justify-content-center">
-            <div>
-              <h4>Ubicación:</h4>
-              <p>Tegucigalpa M.D.C., Honduras</p>
-            </div>
+    <section class="formcontacto" id="contacto">
 
-            <div>
-              <h4>Email:</h4>
-              <p>diegoale2304@gmail.com</p>
-            </div>
+      <section class="contactoelementos">
+        <section class="datos">
+                <h2>Contacto</h2>
+          <div>
+            <h4>Ubicación:</h4>
+            <p>Tegucigalpa M.D.C., Honduras</p>
+          </div>
 
-            <div>
-              <h4>No. Telefónico:</h4>
-              <p>+504 9762-0438</p>
-            </div>
+          <div>
+            <h4>Email:</h4>
+            <p>diegoale2304@gmail.com</p>
+          </div>
+
+          <div>
+            <h4>No. Telefónico:</h4>
+            <p>+504 9762-0438</p>
           </div>
         </section>
-        <div class="text-center" id="mensaje">
-          <h4>Mensaje:</h4>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-5 d-flex align-items-center">
-            <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form class="email-form">
-                <div class="row">
-                  <div class="form-group col-md-6 text-center">
-                    <label for="name">Nombre</label>
-                    <input type="text" name="nombre" class="form-control border-3" id="nombre">
-                  </div>
-                  <div class="form-group col-md-6 text-center">
-                    <label for="name">Correo</label>
-                    <input type="email" class="form-control border-3" name="email" id="email">
-                  </div>
-                </div>
-                <div class="form-group text-center mt-2">
-                  <label for="name">Asunto</label>
-                  <input type="text" class="form-control border-3" name="asunto" id="asunto">
-                </div>
-                <div class="form-group text-center mt-2">
-                  <label for="name">Mensaje</label>
-                  <textarea class="form-control border-3" name="message" rows="10"></textarea>
-                </div>
-                <div class="text-center"><button class="btn btn-primary mt-4" type="submit">Enviar</button></div>
-              </form>
-            </div>
-          </div>
-    </section>
+        <section class="formulario">
+          <div class="form-container">
+            <form class="my-form">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
 
+              <label for="email">Correo:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="subject">Asunto:</label>
+              <input type="text" id="subject" name="subject" required>
+
+              <label for="message">Mensaje:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+      </section>
+    </section>
   </main>
 
   <footer class="footer">

@@ -1,0 +1,61 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    text-align: center;
+    background-color: #fff;
+    margin: 10px 10px;
+    img {
+        width: 50%;
+        margin-top: 25px;
+    }
+    
+    .card-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .card-text {
+        font-size: 16px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: @boton-color;
+        color: @blanco;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    .btn-primary {
+        background-color: @boton-color
+    }
+    
+    .btn-primary:hover {
+        background-color: @boton-resalto;
+    }
+}
+
+.tarjetas{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.proyectos{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+    @media (max-width: @size[desktop]) {
+        margin: 2rem 5rem;  
+    }
+    @media (max-width: @size[tablet]) {
+        margin: 1rem 1rem;  
+        display: block;
+        margin: 0 4rem;
+    }
+}
