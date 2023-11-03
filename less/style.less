@@ -1,0 +1,114 @@
+.navbar {
+    background: @navbar-background;
+    text-align: center;
+    padding: 1rem;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        li {
+            display: inline;
+            margin-right: 20px;
+            a{
+                color: @navbar-text-color;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        float: left;
+        margin-right: 20px;
+        color: @navbar-text-color;
+    }
+}
+
+.hero-banner {
+    background-image: url('https://images.vexels.com/content/144678/preview/white-abstract-minimalist-background-fb55e3.png');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: @navbar-background;
+    .hero-content {
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: @boton-color;
+        color: @navbar-text-color; 
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+}
+
+.division{
+    background-color: @navbar-background;
+    padding: 1rem;
+}
+
+.container{
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+        h2 {
+            font-size: 7rem;
+        }
+
+        .parrafo {
+            flex: 1;
+            text-align: left; /* Alinéa el texto del lado izquierdo */
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-top: 0; /* Elimina el margen superior predeterminado */
+        }
+        
+        p {
+            font-size: 16px;
+            margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+        }
+        
+        .lista {
+            list-style: none;
+            padding: 0;
+        }
+        
+        li {
+            margin: 5px 0; /* Espacio vertical entre elementos de la lista */
+        }
+        
+
+}
+
+.footer {
+    background: @navbar-background;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    bottom: 0;
+    width: 100%;
+    .footer-content {
+        margin: 0 auto;
+    }
+    
+}
+
